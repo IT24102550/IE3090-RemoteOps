@@ -1,0 +1,13 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -pthread
+
+all: agent_550 controller_550
+
+agent_550: agent_550.c
+	$(CC) $(CFLAGS) -o agent_550 agent_550.c
+
+controller_550: controller_550.c
+	$(CC) $(CFLAGS) -o controller_550 controller_550.c
+
+clean:
+	rm -f agent_550 controller_550

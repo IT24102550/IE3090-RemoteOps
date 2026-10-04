@@ -1,0 +1,54 @@
+[2026-10-03 09:33:08] Agent started on port 9410
+[2026-10-03 09:37:14] Connection from 127.0.0.1
+[2026-10-03 09:37:38] AUTH success from 127.0.0.1
+[2026-10-03 09:37:38] EXEC DATE ok
+[2026-10-03 09:37:38] EXEC UPTIME ok
+[2026-10-03 09:37:38] EXEC DISKFREE ok
+[2026-10-03 09:37:38] EXEC HOSTNAME ok
+[2026-10-03 09:37:38] EXEC WHOAMI ok
+[2026-10-03 09:41:19] Agent started on port 9410
+[2026-10-03 09:41:25] Connection from 127.0.0.1
+[2026-10-03 09:41:49] AUTH success from 127.0.0.1
+[2026-10-03 09:42:00] EXEC rejected: DATA
+[2026-10-03 09:42:25] Agent started on port 9410
+[2026-10-03 09:42:28] Connection from 127.0.0.1
+[2026-10-03 09:42:44] AUTH success from 127.0.0.1
+[2026-10-03 09:43:01] EXEC DATE ok
+[2026-10-03 09:43:17] EXEC UPTIME ok
+[2026-10-03 09:43:30] EXEC DISKFREE ok
+[2026-10-03 09:43:41] EXEC HOSTNAME ok
+[2026-10-03 09:43:53] EXEC WHOAMI ok
+[2026-10-03 09:44:18] EXEC rejected: rm
+[2026-10-03 09:47:28] Connection from 127.0.0.1
+[2026-10-03 09:47:28] Client 127.0.0.1 disconnected
+[2026-10-03 09:47:37] Agent started on port 9410
+[2026-10-03 09:47:40] Connection from 127.0.0.1
+[2026-10-03 09:47:40] Client 127.0.0.1 disconnected
+[2026-10-03 09:57:16] Agent started on port 9410
+[2026-10-04 03:34:31] Agent started on port 9410
+[2026-10-04 03:35:18] Connection from 127.0.0.1
+[2026-10-04 03:35:18] AUTH success from 127.0.0.1
+[2026-10-04 03:35:18] Client 127.0.0.1 disconnected
+[2026-10-04 03:35:30] Connection from 127.0.0.1
+[2026-10-04 03:35:30] AUTH success from 127.0.0.1
+[2026-10-04 03:35:30] Client 127.0.0.1 disconnected
+[2026-10-04 03:37:26] Agent started on port 9410
+[2026-10-04 03:37:32] Connection from 127.0.0.1
+[2026-10-04 03:37:32] AUTH success from 127.0.0.1
+[2026-10-04 03:37:32] Client 127.0.0.1 disconnected
+[2026-10-04 03:39:46] === Agent STARTED (port=9410, SID=552) ===
+[2026-10-04 03:39:50] CONNECTION: New client connected (fd=4)
+[2026-10-04 03:39:50] CMD: AUTH OPS-2550 (fd=4)
+[2026-10-04 03:39:50] AUTH: Successful for client (fd=4)
+[2026-10-04 03:39:50] CMD: SYSINFO (fd=4)
+[2026-10-04 03:39:50] CMD: LISTPROC (fd=4)
+[2026-10-04 03:39:50] CMD: EXEC DATE (fd=4)
+[2026-10-04 03:39:50] CMD: EXEC WHOAMI (fd=4)
+[2026-10-04 03:39:50] CMD: EXEC RM_RF (fd=4)
+[2026-10-04 03:39:50] CMD: PUT test_upload.txt 38 (fd=4)
+[2026-10-04 03:39:50] PUT: test_upload.txt (38 bytes) from fd=4
+[2026-10-04 03:39:50] CMD: GET test_upload.txt (fd=4)
+[2026-10-04 03:39:50] GET: test_upload.txt (38 bytes) to fd=4
+[2026-10-04 03:39:51] CMD: MONITOR START 9999 (fd=4)
+[2026-10-04 03:40:02] CMD: MONITOR STOP (fd=4)
+[2026-10-04 03:40:02] CMD: QUIT (fd=4)
